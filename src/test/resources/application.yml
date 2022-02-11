@@ -1,0 +1,13 @@
+spring:
+  port: 8080
+  jpa:
+    hibernate:
+      ddl-auto: create
+      format_sql: true
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_quiz
+    username: root
+    password: 123456
+    driver:
+      class: com.mysql.jdbc.Driver
